@@ -10,7 +10,7 @@ module.exports = function(config, bot, listener) {
 
     var logger = config.logger;
 
-    var pokemon = JSON.parse(fs.readFileSync('./locale/pokemon.en.json'));
+    var pokemon = JSON.parse(fs.readFileSync('./locale/pokemon.de.json'));
     var seen = []; // Contains encounter data of already processed pokemen
 
     logger.level = 'debug';

@@ -7,7 +7,7 @@
 
 var fs = require('fs'),
     _ = require('lodash'),
-    pokedex = JSON.parse(fs.readFileSync(__dirname + '/../locale/pokemon.en.json'));
+    pokedex = JSON.parse(fs.readFileSync(__dirname + '/../locale/pokemon.de.json'));
 
 /** Dictionary of known Pokémon */
 exports.pokedex = pokedex;
